@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46F59ECE19EFA87F00A34EB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F59ECD19EFA87F00A34EB2 /* AppDelegate.swift */; };
+		46F59ED019EFA87F00A34EB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F59ECF19EFA87F00A34EB2 /* ViewController.swift */; };
+		46F59ED319EFA87F00A34EB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F59ED119EFA87F00A34EB2 /* Main.storyboard */; };
+		46F59ED519EFA87F00A34EB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F59ED419EFA87F00A34EB2 /* Images.xcassets */; };
+		46F59ED819EFA87F00A34EB2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46F59ED619EFA87F00A34EB2 /* LaunchScreen.xib */; };
+		46F59EE419EFA88000A34EB2 /* inner_earTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F59EE319EFA88000A34EB2 /* inner_earTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46F59EDE19EFA88000A34EB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F59EC019EFA87F00A34EB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F59EC719EFA87F00A34EB2;
+			remoteInfo = "inner-ear";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46F59EC819EFA87F00A34EB2 /* inner-ear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "inner-ear.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F59ECC19EFA87F00A34EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F59ECD19EFA87F00A34EB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46F59ECF19EFA87F00A34EB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46F59ED219EFA87F00A34EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46F59ED419EFA87F00A34EB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		46F59ED719EFA87F00A34EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		46F59EDD19EFA88000A34EB2 /* inner-earTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "inner-earTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F59EE219EFA88000A34EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F59EE319EFA88000A34EB2 /* inner_earTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inner_earTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46F59EC519EFA87F00A34EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F59EDA19EFA88000A34EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46F59EBF19EFA87F00A34EB2 = {
+			isa = PBXGroup;
+			children = (
+				46F59ECA19EFA87F00A34EB2 /* inner-ear */,
+				46F59EE019EFA88000A34EB2 /* inner-earTests */,
+				46F59EC919EFA87F00A34EB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46F59EC919EFA87F00A34EB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46F59EC819EFA87F00A34EB2 /* inner-ear.app */,
+				46F59EDD19EFA88000A34EB2 /* inner-earTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46F59ECA19EFA87F00A34EB2 /* inner-ear */ = {
+			isa = PBXGroup;
+			children = (
+				46F59ECD19EFA87F00A34EB2 /* AppDelegate.swift */,
+				46F59ECF19EFA87F00A34EB2 /* ViewController.swift */,
+				46F59ED119EFA87F00A34EB2 /* Main.storyboard */,
+				46F59ED419EFA87F00A34EB2 /* Images.xcassets */,
+				46F59ED619EFA87F00A34EB2 /* LaunchScreen.xib */,
+				46F59ECB19EFA87F00A34EB2 /* Supporting Files */,
+			);
+			path = "inner-ear";
+			sourceTree = "<group>";
+		};
+		46F59ECB19EFA87F00A34EB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46F59ECC19EFA87F00A34EB2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46F59EE019EFA88000A34EB2 /* inner-earTests */ = {
+			isa = PBXGroup;
+			children = (
+				46F59EE319EFA88000A34EB2 /* inner_earTests.swift */,
+				46F59EE119EFA88000A34EB2 /* Supporting Files */,
+			);
+			path = "inner-earTests";
+			sourceTree = "<group>";
+		};
+		46F59EE119EFA88000A34EB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46F59EE219EFA88000A34EB2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46F59EC719EFA87F00A34EB2 /* inner-ear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F59EE719EFA88000A34EB2 /* Build configuration list for PBXNativeTarget "inner-ear" */;
+			buildPhases = (
+				46F59EC419EFA87F00A34EB2 /* Sources */,
+				46F59EC519EFA87F00A34EB2 /* Frameworks */,
+				46F59EC619EFA87F00A34EB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "inner-ear";
+			productName = "inner-ear";
+			productReference = 46F59EC819EFA87F00A34EB2 /* inner-ear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46F59EDC19EFA88000A34EB2 /* inner-earTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F59EEA19EFA88000A34EB2 /* Build configuration list for PBXNativeTarget "inner-earTests" */;
+			buildPhases = (
+				46F59ED919EFA88000A34EB2 /* Sources */,
+				46F59EDA19EFA88000A34EB2 /* Frameworks */,
+				46F59EDB19EFA88000A34EB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46F59EDF19EFA88000A34EB2 /* PBXTargetDependency */,
+			);
+			name = "inner-earTests";
+			productName = "inner-earTests";
+			productReference = 46F59EDD19EFA88000A34EB2 /* inner-earTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F59EC019EFA87F00A34EB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = asb;
+				TargetAttributes = {
+					46F59EC719EFA87F00A34EB2 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					46F59EDC19EFA88000A34EB2 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 46F59EC719EFA87F00A34EB2;
+					};
+				};
+			};
+			buildConfigurationList = 46F59EC319EFA87F00A34EB2 /* Build configuration list for PBXProject "inner-ear" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46F59EBF19EFA87F00A34EB2;
+			productRefGroup = 46F59EC919EFA87F00A34EB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46F59EC719EFA87F00A34EB2 /* inner-ear */,
+				46F59EDC19EFA88000A34EB2 /* inner-earTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46F59EC619EFA87F00A34EB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F59ED319EFA87F00A34EB2 /* Main.storyboard in Resources */,
+				46F59ED819EFA87F00A34EB2 /* LaunchScreen.xib in Resources */,
+				46F59ED519EFA87F00A34EB2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F59EDB19EFA88000A34EB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46F59EC419EFA87F00A34EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F59ED019EFA87F00A34EB2 /* ViewController.swift in Sources */,
+				46F59ECE19EFA87F00A34EB2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F59ED919EFA88000A34EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F59EE419EFA88000A34EB2 /* inner_earTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46F59EDF19EFA88000A34EB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46F59EC719EFA87F00A34EB2 /* inner-ear */;
+			targetProxy = 46F59EDE19EFA88000A34EB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46F59ED119EFA87F00A34EB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46F59ED219EFA87F00A34EB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46F59ED619EFA87F00A34EB2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46F59ED719EFA87F00A34EB2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46F59EE519EFA88000A34EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46F59EE619EFA88000A34EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46F59EE819EFA88000A34EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "inner-ear/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46F59EE919EFA88000A34EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "inner-ear/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46F59EEB19EFA88000A34EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "inner-earTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/inner-ear.app/inner-ear";
+			};
+			name = Debug;
+		};
+		46F59EEC19EFA88000A34EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "inner-earTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/inner-ear.app/inner-ear";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46F59EC319EFA87F00A34EB2 /* Build configuration list for PBXProject "inner-ear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F59EE519EFA88000A34EB2 /* Debug */,
+				46F59EE619EFA88000A34EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F59EE719EFA88000A34EB2 /* Build configuration list for PBXNativeTarget "inner-ear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F59EE819EFA88000A34EB2 /* Debug */,
+				46F59EE919EFA88000A34EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46F59EEA19EFA88000A34EB2 /* Build configuration list for PBXNativeTarget "inner-earTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F59EEB19EFA88000A34EB2 /* Debug */,
+				46F59EEC19EFA88000A34EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F59EC019EFA87F00A34EB2 /* Project object */;
+}
